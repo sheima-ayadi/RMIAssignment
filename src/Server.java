@@ -16,7 +16,7 @@ public class Server extends UnicastRemoteObject implements MyInterface {
          rev=rev+ s.charAt(i); 
          
         }
-        return ans ;
+        return rev ;
     }
 
     public Character minChar(String s){
